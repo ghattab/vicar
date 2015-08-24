@@ -9,14 +9,8 @@ import os, sys, time, getopt
 # numerical computing and pandas
 import numpy as np
 from numpy import *
-import pandas as pd
-from pandas import DataFrame, Series  # for convenience
 
-# pims, tracking and multidimensional image handling
-import pims
-import trackpy as tp
-
-# OpenCV 2
+# OpenCV
 import cv2
 
 from itertools import izip_longest
@@ -31,6 +25,7 @@ import warnings
 import math, operator
 from PIL import Image
 from PIL import ImageChops
+
 
 # ------------------------------------------------------------------------------
 #                                   USAGE
