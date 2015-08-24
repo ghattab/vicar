@@ -26,8 +26,6 @@ import skimage
 from skimage import transform as tf
 from skimage.segmentation import clear_border
 
-
-import tifffile as tiff
 import warnings
 
 import math, operator
