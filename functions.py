@@ -141,6 +141,9 @@ def load_img(flist):
     # height, width, channels = img.shape
     return rgb_imgs, size_var
 
+# ------------------------------------------------------------------------------
+#                                   TRANSFORMS
+# ------------------------------------------------------------------------------
 
 def rgb_to_gray(img):
     """ Converts an RGB image to greyscale, where each pixel
@@ -157,6 +160,10 @@ def invert(img):
 def ubyte(img):
     return cv2.convertScaleAbs(img, alpha=(255.0/65535.0))
 
+
+# ------------------------------------------------------------------------------
+#                               PREPROCESSING
+# ------------------------------------------------------------------------------
 
 def preprocess(flist, imgs):
     """ Preprocesses RGB imgs
@@ -211,6 +218,11 @@ def preprocess(flist, imgs):
     return gray, denoise, clahe, ada, dilate, bin
 
 
+
+# ------------------------------------------------------------------------------
+#                               CONTOURS
+# ------------------------------------------------------------------------------
+
 def contour_approach(flist, bin, rows, cols):
     # Detection of visual cues by Border following [Suzuki85] algorithm
     # --- Suzuki, S. and Abe, K., Topological Structural Analysis
@@ -237,16 +249,6 @@ def contour_approach(flist, bin, rows, cols):
     anchors = find_anchors(flist, n, fltr_cnts)
     return anchors, contours, fltr_cnts, bad_cnts, areas, perim, fltr_areas, ratio, dist
 
-
-# ------------------------------------------------------------------------------
-#                               CONTOURS
-# ------------------------------------------------------------------------------
-
-
-# Suzuki, S. and Abe, K.,
-# Topological Structural Analysis of Digitized Binary Images by Border Following.
-# CVGIP 30 1, pp 32-46 (1985)
-# Moments of a contours/ Green Theorem
 
 def get_contours(image):
     """ Finds the outer contours of a binary image and returns 
