@@ -583,4 +583,3 @@ def export(flist, dirs, out):
             tmp = out[j[0]][i]
             #            print f, tmp
             cv2.imwrite(f, tmp)
-
