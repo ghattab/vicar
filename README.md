@@ -7,10 +7,10 @@ This work was funded by the German-Canadian DFG International Research Training 
 
 For better reproducibility the versions that were used for development are mentioned in parentheses.
 
-1. Python (2.7.10)
-2. OpenCV (2.4.9)
-3. Image Processing SciKit (skimage 0.11dev)
-4. Python Imaging Library (PIL 1.1.7)
+* Python (2.7.10)
+* OpenCV (2.4.9)
+* Image Processing SciKit (skimage 0.11dev)
+* Python Imaging Library (PIL 1.1.7)
 
 ## Usage
 
