@@ -136,9 +136,7 @@ def load_img(flist):
     for i in flist:
         rgb_imgs.append(cv2.imread(i, -1)) # flag <0 to return img as is
     print "\t> Batch import of N frames\t", len(rgb_imgs)
-    size_var = tiff.imread(i)
-    # size_var = cv2.imread(i).shape
-    # height, width, channels = img.shape
+    size_var = cv2.imread(i).shape    # (height, width, channels)
     return rgb_imgs, size_var
 
 # ------------------------------------------------------------------------------
