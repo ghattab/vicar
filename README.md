@@ -10,6 +10,7 @@ For better reproducibility the versions that were used for development are menti
 1. Python (2.7.10)
 2. OpenCV (2.4.9)
 3. Image Processing SciKit (skimage 0.11dev)
+4. Python Imaging Library (PIL 1.1.7)
 
 ## Usage
 
