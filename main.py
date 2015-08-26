@@ -162,7 +162,7 @@ def main(argv):
 
             # Exporting images
             # Define arrays to output str. folder name and each of len(flist)
-            out = [align_c_imgs, gray, denoise, clahe, ada, dilate, cbin]
+            out = [align_c_imgs, gray, denoise, clahe, ada, dilate, cbin] # and even red, green, blue channels
             dirs = ["1_align", "2_gray", "3_denoise", "4_clahe", "5_ada", \
                     "6_dilate", "7_bin"]
             export(flist, dirs, out)
