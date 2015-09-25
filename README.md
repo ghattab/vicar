@@ -3,7 +3,8 @@
 A data driven and marker-free image alignment approach to correct spatial shift in bacterial time series. 
 This work was funded by the German-Canadian DFG International Research Training Group GRK 1906/1.
 
-[![Demo CountPages alpha](http://share.gifyoutube.com/KzB6Gb.gif)]
+[![alt](https://cloud.githubusercontent.com/assets/13886161/10095675/ceda46b4-636b-11e5-8f0a-51dd3facad69.gif)]
+
 ## Dependencies
 
 For better reproducibility the versions that were used for development are mentioned in parentheses.
