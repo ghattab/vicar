@@ -3,13 +3,13 @@
 A data driven and marker-free image alignment approach to correct spatial shift in bacterial time series. 
 This work was funded by the German-Canadian DFG International Research Training Group GRK 1906/1 and the “Phenotypic Heterogeneity and Sociobiology of Bacterial Populations” DFG SPP1617.
 
-<div align="text-align:center">
+<p align="center">
 <img 
 src="https://cloud.githubusercontent.com/assets/13886161/10096344/06099b76-6371-11e5-9066-e0451aa0aae9.gif" 
 loop=infinite 
 alt="Example result"
 width="600">
-</div>
+</p>
 
 ## Data
 
