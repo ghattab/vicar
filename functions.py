@@ -50,6 +50,7 @@ def header():
 
         MarkerFreeAlignment - Georges Hattab
         Creation date\t141117
+        MIT License (MIT)
 
         ------------------------------------------------------------\n
         """
