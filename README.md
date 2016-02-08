@@ -1,4 +1,4 @@
-# VIsual Cues based Adaptive Registration (VICAR)
+# VICAR, (VI)sual (C)ues (A)daptive (R)egistration
 
 A data driven and marker-free image alignment approach to correct spatial shift in bacterial time series. 
 This work was funded by the German-Canadian DFG International Research Training Group GRK 1906/1 and the “Phenotypic Heterogeneity and Sociobiology of Bacterial Populations” DFG SPP1617.
