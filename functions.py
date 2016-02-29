@@ -48,8 +48,9 @@ def header():
     usage = """\n
         ------------------------------------------------------------
 
-        MarkerFreeAlignment - Georges Hattab
+        VICAR, (VI)sual (C)ues (A)daptive (R)egistration - Georges Hattab
         Creation date\t141117
+        Last update\t160229
         MIT License (MIT)
 
         ------------------------------------------------------------\n
