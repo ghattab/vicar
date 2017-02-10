@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-## ./main.py -i ../data/pics_kolonie_4/ -p
+## Usage: ./main.py -i ../data/pics_kolonie_4/ -p
 
 # ------------------------------------------------------------------------------
 #                                  MODULES IMPORT
