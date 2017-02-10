@@ -533,7 +533,7 @@ def register(anchors, imgs, flist, rows, cols):
 
 def reshape_coord(center_contours):
     """ Decomposes list of (x,y) into 2 x and y lists, as follows
-        [ 'xi, yi', 'xi+1, yi+1', ] -> [xi, xi+1, ] & [yi, yi+1, ]
+        [ 'xi, yi', 'xi+1, yi+1', 'xn, yn'] -> [xi, xi+1, xn] & [yi, yi+1, yn]
     """
     x, y = [], []
     for i, j in enumerate(center_contours[:-1]):
