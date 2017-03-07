@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/21568/ghattab/VICAR.svg)](https://zenodo.org/badge/latestdoi/21568/ghattab/VICAR)
-# VICAR, (VI)sual (C)ues (A)daptive (R)egistration
+# ViCAR, (Vi)sual (C)ues (A)daptive (R)egistration
 
 A data driven and landmark-free image alignment approach to correct spatial shift in bacterial time series. 
 This work was funded by the German-Canadian DFG International Research Training Group GRK 1906/1 and the “Phenotypic Heterogeneity and Sociobiology of Bacterial Populations” DFG SPP1617.
