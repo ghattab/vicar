@@ -41,6 +41,20 @@ $./main.py -i ../data/img_folder/ -p
 #  -p --param                Flag for treating images
 ```
 
+
+## Citation
+If you use this software, please consider citing the following paper: _Hattab, G., Schlüter, J.P., Becker, A. and Nattkemper, T.W., 2017. Vicar: an adaptive and landmark-free registration of time lapse image data from microfluidics experiments. Frontiers in genetics, 8, p.69._
+```
+@Article{hattab18vicar,
+   Author="Hattab, G.  and Wiesmann, V.  and Becker, A.  and Munzner, T.  and Nattkemper, T. W. ",
+   Title="{{A} {N}ovel {M}ethodology for {C}haracterizing {C}ell {S}ubpopulations in {A}utomated {T}ime-lapse {M}icroscopy}",
+   Journal="Front Bioeng Biotechnol",
+   Year="2018",
+   Volume="6",
+   Pages="17"
+}
+```
+
 ## License
 ```
 The MIT License (MIT)
