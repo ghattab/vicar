@@ -1,4 +1,3 @@
-[![DOI](https://zenodo.org/badge/21568/ghattab/VICAR.svg)](https://zenodo.org/badge/latestdoi/21568/ghattab/VICAR)
 # ViCAR, (Vi)sual (C)ues (A)daptive (R)egistration
 
 A data driven and landmark-free image alignment approach to correct spatial shift in bacterial time series. 
